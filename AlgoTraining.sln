@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{31C9A158-4BBC-4725-BC2F-DADE577722BA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EniAlgo", "EniAlgo", "{3B86EB59-4B1C-4218-81AA-2EFBCB52A5EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exemples", "Exemples", "{D574F350-2C96-4536-BAEF-6FA198DABB28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercices", "Exercices", "{EA091FB7-DD11-48E6-BABA-CE9421A06B9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo7_Echanger", "AlgoTraining\ENI_Algo\Exemples\Exo7_Echanger\Exo7_Echanger.csproj", "{8C55CB22-4CE8-4FE7-80A7-09CEB7BB5F67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +17,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{31C9A158-4BBC-4725-BC2F-DADE577722BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31C9A158-4BBC-4725-BC2F-DADE577722BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31C9A158-4BBC-4725-BC2F-DADE577722BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31C9A158-4BBC-4725-BC2F-DADE577722BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C55CB22-4CE8-4FE7-80A7-09CEB7BB5F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C55CB22-4CE8-4FE7-80A7-09CEB7BB5F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C55CB22-4CE8-4FE7-80A7-09CEB7BB5F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C55CB22-4CE8-4FE7-80A7-09CEB7BB5F67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D574F350-2C96-4536-BAEF-6FA198DABB28} = {3B86EB59-4B1C-4218-81AA-2EFBCB52A5EC}
+		{EA091FB7-DD11-48E6-BABA-CE9421A06B9E} = {3B86EB59-4B1C-4218-81AA-2EFBCB52A5EC}
+		{8C55CB22-4CE8-4FE7-80A7-09CEB7BB5F67} = {D574F350-2C96-4536-BAEF-6FA198DABB28}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEC26753-82CD-48F6-8702-CC833E2801E6}
