@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Difference_Volumes_of_Cuboi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNA_to_RNA_Conversion", "AlgoTraining\CodeWars\8Kyu\DNA_to_RNA_Conversion\DNA_to_RNA_Conversion.csproj", "{BFBC4FBA-08D6-4AAF-B0C8-8B1D75D739FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filter_out_the_geese", "AlgoTraining\CodeWars\8Kyu\Filter_out_the_geese\Filter_out_the_geese.csproj", "{17CAB907-C5DF-4EC9-9669-A785967D5B02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{BFBC4FBA-08D6-4AAF-B0C8-8B1D75D739FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFBC4FBA-08D6-4AAF-B0C8-8B1D75D739FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFBC4FBA-08D6-4AAF-B0C8-8B1D75D739FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CAB907-C5DF-4EC9-9669-A785967D5B02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CAB907-C5DF-4EC9-9669-A785967D5B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CAB907-C5DF-4EC9-9669-A785967D5B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CAB907-C5DF-4EC9-9669-A785967D5B02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +88,7 @@ Global
 		{43EC6A45-1B5C-4D8E-A43D-978F4A19665C} = {E5C55B3F-4EBB-4247-8EC9-C64DDC51AF49}
 		{5FE4CFC4-1E1F-4CD8-92BE-15D7D3389E77} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
 		{BFBC4FBA-08D6-4AAF-B0C8-8B1D75D739FB} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
+		{17CAB907-C5DF-4EC9-9669-A785967D5B02} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEC26753-82CD-48F6-8702-CC833E2801E6}
