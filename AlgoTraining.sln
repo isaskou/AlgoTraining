@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_the_Remainder", "AlgoT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_love_you__a_little___a_lot__passionately___not_at_all", "AlgoTraining\CodeWars\8Kyu\I_love_you__a_little___a_lot__passionately___not_at_all\I_love_you__a_little___a_lot__passionately___not_at_all.csproj", "{7B6CA24E-010D-4F10-B391-7D58AEE94A90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Is He Gonna Survive", "AlgoTraining\CodeWars\8Kyu\Is He Gonna Survive\Is He Gonna Survive.csproj", "{558198E2-006B-4D85-968B-9DC93E142AC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{7B6CA24E-010D-4F10-B391-7D58AEE94A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B6CA24E-010D-4F10-B391-7D58AEE94A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B6CA24E-010D-4F10-B391-7D58AEE94A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{558198E2-006B-4D85-968B-9DC93E142AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558198E2-006B-4D85-968B-9DC93E142AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558198E2-006B-4D85-968B-9DC93E142AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558198E2-006B-4D85-968B-9DC93E142AC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +109,7 @@ Global
 		{17CAB907-C5DF-4EC9-9669-A785967D5B02} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
 		{F930E7DE-95B8-4E52-9150-3C0CE1E057B7} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
 		{7B6CA24E-010D-4F10-B391-7D58AEE94A90} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
+		{558198E2-006B-4D85-968B-9DC93E142AC5} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEC26753-82CD-48F6-8702-CC833E2801E6}
