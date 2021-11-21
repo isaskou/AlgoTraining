@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBA_full_48_minutes_average
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squash_the_bugs", "AlgoTraining\CodeWars\8Kyu\Squash_the_bugs\Squash_the_bugs.csproj", "{27C43444-48B0-4404-96F7-C4A1CE8A1E81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jaden_Casing_Strings", "AlgoTraining\CodeWars\7kyu\Jaden_Casing_Strings\Jaden_Casing_Strings.csproj", "{915AB1EE-07DD-4CE4-B0E9-6C9A53042F09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +109,10 @@ Global
 		{27C43444-48B0-4404-96F7-C4A1CE8A1E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27C43444-48B0-4404-96F7-C4A1CE8A1E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27C43444-48B0-4404-96F7-C4A1CE8A1E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{915AB1EE-07DD-4CE4-B0E9-6C9A53042F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{915AB1EE-07DD-4CE4-B0E9-6C9A53042F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{915AB1EE-07DD-4CE4-B0E9-6C9A53042F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{915AB1EE-07DD-4CE4-B0E9-6C9A53042F09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +137,7 @@ Global
 		{6FED69E6-8598-4063-915A-F1C72D27A372} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
 		{976F7BEB-D79D-450A-A2F2-0E159996B9FD} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
 		{27C43444-48B0-4404-96F7-C4A1CE8A1E81} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
+		{915AB1EE-07DD-4CE4-B0E9-6C9A53042F09} = {E5C55B3F-4EBB-4247-8EC9-C64DDC51AF49}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEC26753-82CD-48F6-8702-CC833E2801E6}
