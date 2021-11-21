@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo7_Echanger", "AlgoTraini
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo8_TVA", "AlgoTraining\ENI_Algo\Exercices\Exo8_TVA\Exo8_TVA.csproj", "{66A8801E-EF17-47BF-8441-ADC085AF64AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo8_Reservoir", "AlgoTraining\ENI_Algo\Exemples\Exo8_Reservoir\Exo8_Reservoir.csproj", "{085ACF75-D110-4A60-87BB-8C75A44D00A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{66A8801E-EF17-47BF-8441-ADC085AF64AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66A8801E-EF17-47BF-8441-ADC085AF64AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66A8801E-EF17-47BF-8441-ADC085AF64AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{085ACF75-D110-4A60-87BB-8C75A44D00A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{085ACF75-D110-4A60-87BB-8C75A44D00A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{085ACF75-D110-4A60-87BB-8C75A44D00A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{085ACF75-D110-4A60-87BB-8C75A44D00A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 		{EA091FB7-DD11-48E6-BABA-CE9421A06B9E} = {3B86EB59-4B1C-4218-81AA-2EFBCB52A5EC}
 		{8C55CB22-4CE8-4FE7-80A7-09CEB7BB5F67} = {D574F350-2C96-4536-BAEF-6FA198DABB28}
 		{66A8801E-EF17-47BF-8441-ADC085AF64AB} = {EA091FB7-DD11-48E6-BABA-CE9421A06B9E}
+		{085ACF75-D110-4A60-87BB-8C75A44D00A3} = {D574F350-2C96-4536-BAEF-6FA198DABB28}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEC26753-82CD-48F6-8702-CC833E2801E6}
