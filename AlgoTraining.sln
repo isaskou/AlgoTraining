@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Is He Gonna Survive", "Algo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keep_up_the_hoop", "AlgoTraining\CodeWars\8Kyu\Keep_up_the_hoop\Keep_up_the_hoop.csproj", "{6FED69E6-8598-4063-915A-F1C72D27A372}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBA_full_48_minutes_average", "AlgoTraining\CodeWars\8Kyu\NBA_full_48_minutes_average\NBA_full_48_minutes_average.csproj", "{976F7BEB-D79D-450A-A2F2-0E159996B9FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{6FED69E6-8598-4063-915A-F1C72D27A372}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FED69E6-8598-4063-915A-F1C72D27A372}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FED69E6-8598-4063-915A-F1C72D27A372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976F7BEB-D79D-450A-A2F2-0E159996B9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976F7BEB-D79D-450A-A2F2-0E159996B9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976F7BEB-D79D-450A-A2F2-0E159996B9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976F7BEB-D79D-450A-A2F2-0E159996B9FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,6 +123,7 @@ Global
 		{7B6CA24E-010D-4F10-B391-7D58AEE94A90} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
 		{558198E2-006B-4D85-968B-9DC93E142AC5} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
 		{6FED69E6-8598-4063-915A-F1C72D27A372} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
+		{976F7BEB-D79D-450A-A2F2-0E159996B9FD} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEC26753-82CD-48F6-8702-CC833E2801E6}
