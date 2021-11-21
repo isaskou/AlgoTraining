@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6kyu", "6kyu", "{7B997C51-D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Can We Divide It", "AlgoTraining\CodeWars\8Kyu\Can We Divide It\Can We Divide It.csproj", "{499E0559-F165-438B-ABD8-07451272CB14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count_the_divisors_of_a_number", "AlgoTraining\CodeWars\7kyu\Count_the_divisors_of_a_number\Count_the_divisors_of_a_number.csproj", "{43EC6A45-1B5C-4D8E-A43D-978F4A19665C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{499E0559-F165-438B-ABD8-07451272CB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{499E0559-F165-438B-ABD8-07451272CB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{499E0559-F165-438B-ABD8-07451272CB14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43EC6A45-1B5C-4D8E-A43D-978F4A19665C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43EC6A45-1B5C-4D8E-A43D-978F4A19665C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43EC6A45-1B5C-4D8E-A43D-978F4A19665C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43EC6A45-1B5C-4D8E-A43D-978F4A19665C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +67,7 @@ Global
 		{E5C55B3F-4EBB-4247-8EC9-C64DDC51AF49} = {26DA9FAF-657A-40C9-8711-3614AE57A4E3}
 		{7B997C51-DFA6-4BE4-B5D9-541330EF4B3B} = {26DA9FAF-657A-40C9-8711-3614AE57A4E3}
 		{499E0559-F165-438B-ABD8-07451272CB14} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
+		{43EC6A45-1B5C-4D8E-A43D-978F4A19665C} = {E5C55B3F-4EBB-4247-8EC9-C64DDC51AF49}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEC26753-82CD-48F6-8702-CC833E2801E6}
