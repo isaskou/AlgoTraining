@@ -6,7 +6,10 @@ namespace Filter_out_the_geese
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Solution s = new Solution();
+            string[] array = { "Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish" };
+            s.GooseFilter(array);
+
         }
     }
 }

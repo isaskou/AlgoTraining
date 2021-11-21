@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNA_to_RNA_Conversion", "Al
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filter_out_the_geese", "AlgoTraining\CodeWars\8Kyu\Filter_out_the_geese\Filter_out_the_geese.csproj", "{17CAB907-C5DF-4EC9-9669-A785967D5B02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_the_Remainder", "AlgoTraining\CodeWars\8Kyu\Find_the_Remainder\Find_the_Remainder.csproj", "{F930E7DE-95B8-4E52-9150-3C0CE1E057B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{17CAB907-C5DF-4EC9-9669-A785967D5B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17CAB907-C5DF-4EC9-9669-A785967D5B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17CAB907-C5DF-4EC9-9669-A785967D5B02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F930E7DE-95B8-4E52-9150-3C0CE1E057B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F930E7DE-95B8-4E52-9150-3C0CE1E057B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F930E7DE-95B8-4E52-9150-3C0CE1E057B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F930E7DE-95B8-4E52-9150-3C0CE1E057B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +95,7 @@ Global
 		{5FE4CFC4-1E1F-4CD8-92BE-15D7D3389E77} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
 		{BFBC4FBA-08D6-4AAF-B0C8-8B1D75D739FB} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
 		{17CAB907-C5DF-4EC9-9669-A785967D5B02} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
+		{F930E7DE-95B8-4E52-9150-3C0CE1E057B7} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEC26753-82CD-48F6-8702-CC833E2801E6}
