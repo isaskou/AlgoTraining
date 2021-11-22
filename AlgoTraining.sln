@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exemples", "Exemples", "{D5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercices", "Exercices", "{EA091FB7-DD11-48E6-BABA-CE9421A06B9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo7_Echanger", "AlgoTraining\ENI_Algo\Exemples\Exo7_Echanger\Exo7_Echanger.csproj", "{8C55CB22-4CE8-4FE7-80A7-09CEB7BB5F67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo7_Echanger", "AlgoTraining\ENI_Algo\Exemples\Exo7_Echanger\Exo7_Echanger.csproj", "{8C55CB22-4CE8-4FE7-80A7-09CEB7BB5F67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo8_TVA", "AlgoTraining\ENI_Algo\Exercices\Exo8_TVA\Exo8_TVA.csproj", "{66A8801E-EF17-47BF-8441-ADC085AF64AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo8_TVA", "AlgoTraining\ENI_Algo\Exercices\Exo8_TVA\Exo8_TVA.csproj", "{66A8801E-EF17-47BF-8441-ADC085AF64AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo8_Reservoir", "AlgoTraining\ENI_Algo\Exemples\Exo8_Reservoir\Exo8_Reservoir.csproj", "{085ACF75-D110-4A60-87BB-8C75A44D00A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo8_Reservoir", "AlgoTraining\ENI_Algo\Exemples\Exo8_Reservoir\Exo8_Reservoir.csproj", "{085ACF75-D110-4A60-87BB-8C75A44D00A3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeWars", "CodeWars", "{26DA9FAF-657A-40C9-8711-3614AE57A4E3}"
 EndProject
@@ -23,33 +23,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7kyu", "7kyu", "{E5C55B3F-4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6kyu", "6kyu", "{7B997C51-DFA6-4BE4-B5D9-541330EF4B3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Can We Divide It", "AlgoTraining\CodeWars\8Kyu\Can We Divide It\Can We Divide It.csproj", "{499E0559-F165-438B-ABD8-07451272CB14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Can We Divide It", "AlgoTraining\CodeWars\8Kyu\Can We Divide It\Can We Divide It.csproj", "{499E0559-F165-438B-ABD8-07451272CB14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count_the_divisors_of_a_number", "AlgoTraining\CodeWars\7kyu\Count_the_divisors_of_a_number\Count_the_divisors_of_a_number.csproj", "{43EC6A45-1B5C-4D8E-A43D-978F4A19665C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Count_the_divisors_of_a_number", "AlgoTraining\CodeWars\7kyu\Count_the_divisors_of_a_number\Count_the_divisors_of_a_number.csproj", "{43EC6A45-1B5C-4D8E-A43D-978F4A19665C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Difference_Volumes_of_Cuboids", "AlgoTraining\CodeWars\8Kyu\Difference_Volumes_of_Cuboids\Difference_Volumes_of_Cuboids.csproj", "{5FE4CFC4-1E1F-4CD8-92BE-15D7D3389E77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Difference_Volumes_of_Cuboids", "AlgoTraining\CodeWars\8Kyu\Difference_Volumes_of_Cuboids\Difference_Volumes_of_Cuboids.csproj", "{5FE4CFC4-1E1F-4CD8-92BE-15D7D3389E77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNA_to_RNA_Conversion", "AlgoTraining\CodeWars\8Kyu\DNA_to_RNA_Conversion\DNA_to_RNA_Conversion.csproj", "{BFBC4FBA-08D6-4AAF-B0C8-8B1D75D739FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DNA_to_RNA_Conversion", "AlgoTraining\CodeWars\8Kyu\DNA_to_RNA_Conversion\DNA_to_RNA_Conversion.csproj", "{BFBC4FBA-08D6-4AAF-B0C8-8B1D75D739FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filter_out_the_geese", "AlgoTraining\CodeWars\8Kyu\Filter_out_the_geese\Filter_out_the_geese.csproj", "{17CAB907-C5DF-4EC9-9669-A785967D5B02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Filter_out_the_geese", "AlgoTraining\CodeWars\8Kyu\Filter_out_the_geese\Filter_out_the_geese.csproj", "{17CAB907-C5DF-4EC9-9669-A785967D5B02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_the_Remainder", "AlgoTraining\CodeWars\8Kyu\Find_the_Remainder\Find_the_Remainder.csproj", "{F930E7DE-95B8-4E52-9150-3C0CE1E057B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find_the_Remainder", "AlgoTraining\CodeWars\8Kyu\Find_the_Remainder\Find_the_Remainder.csproj", "{F930E7DE-95B8-4E52-9150-3C0CE1E057B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_love_you__a_little___a_lot__passionately___not_at_all", "AlgoTraining\CodeWars\8Kyu\I_love_you__a_little___a_lot__passionately___not_at_all\I_love_you__a_little___a_lot__passionately___not_at_all.csproj", "{7B6CA24E-010D-4F10-B391-7D58AEE94A90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I_love_you__a_little___a_lot__passionately___not_at_all", "AlgoTraining\CodeWars\8Kyu\I_love_you__a_little___a_lot__passionately___not_at_all\I_love_you__a_little___a_lot__passionately___not_at_all.csproj", "{7B6CA24E-010D-4F10-B391-7D58AEE94A90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Is He Gonna Survive", "AlgoTraining\CodeWars\8Kyu\Is He Gonna Survive\Is He Gonna Survive.csproj", "{558198E2-006B-4D85-968B-9DC93E142AC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Is He Gonna Survive", "AlgoTraining\CodeWars\8Kyu\Is He Gonna Survive\Is He Gonna Survive.csproj", "{558198E2-006B-4D85-968B-9DC93E142AC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keep_up_the_hoop", "AlgoTraining\CodeWars\8Kyu\Keep_up_the_hoop\Keep_up_the_hoop.csproj", "{6FED69E6-8598-4063-915A-F1C72D27A372}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keep_up_the_hoop", "AlgoTraining\CodeWars\8Kyu\Keep_up_the_hoop\Keep_up_the_hoop.csproj", "{6FED69E6-8598-4063-915A-F1C72D27A372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBA_full_48_minutes_average", "AlgoTraining\CodeWars\8Kyu\NBA_full_48_minutes_average\NBA_full_48_minutes_average.csproj", "{976F7BEB-D79D-450A-A2F2-0E159996B9FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBA_full_48_minutes_average", "AlgoTraining\CodeWars\8Kyu\NBA_full_48_minutes_average\NBA_full_48_minutes_average.csproj", "{976F7BEB-D79D-450A-A2F2-0E159996B9FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squash_the_bugs", "AlgoTraining\CodeWars\8Kyu\Squash_the_bugs\Squash_the_bugs.csproj", "{27C43444-48B0-4404-96F7-C4A1CE8A1E81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Squash_the_bugs", "AlgoTraining\CodeWars\8Kyu\Squash_the_bugs\Squash_the_bugs.csproj", "{27C43444-48B0-4404-96F7-C4A1CE8A1E81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jaden_Casing_Strings", "AlgoTraining\CodeWars\7kyu\Jaden_Casing_Strings\Jaden_Casing_Strings.csproj", "{915AB1EE-07DD-4CE4-B0E9-6C9A53042F09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jaden_Casing_Strings", "AlgoTraining\CodeWars\7kyu\Jaden_Casing_Strings\Jaden_Casing_Strings.csproj", "{915AB1EE-07DD-4CE4-B0E9-6C9A53042F09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Waiting_room", "AlgoTraining\CodeWars\7kyu\Waiting_room\Waiting_room.csproj", "{53C70619-0FE1-4D1F-A2C3-041AC917CA16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Waiting_room", "AlgoTraining\CodeWars\7kyu\Waiting_room\Waiting_room.csproj", "{53C70619-0FE1-4D1F-A2C3-041AC917CA16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum of odd numbers", "AlgoTraining\CodeWars\7kyu\Sum of odd numbers\Sum of odd numbers.csproj", "{32E3C030-028C-4EE1-A13A-8903169989F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sum of odd numbers", "AlgoTraining\CodeWars\7kyu\Sum of odd numbers\Sum of odd numbers.csproj", "{32E3C030-028C-4EE1-A13A-8903169989F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breaking chocolate problem", "AlgoTraining\CodeWars\7kyu\Breaking chocolate problem\Breaking chocolate problem.csproj", "{6727EB79-937E-4490-9EEE-68A9D5000DBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breaking chocolate problemTests", "AlgoTraining\CodeWars\7kyu\Breaking chocolate problemTests\Breaking chocolate problemTests.csproj", "{F55A2A97-0C53-4A76-BEED-ADC04B20100A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +129,14 @@ Global
 		{32E3C030-028C-4EE1-A13A-8903169989F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32E3C030-028C-4EE1-A13A-8903169989F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32E3C030-028C-4EE1-A13A-8903169989F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6727EB79-937E-4490-9EEE-68A9D5000DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6727EB79-937E-4490-9EEE-68A9D5000DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6727EB79-937E-4490-9EEE-68A9D5000DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6727EB79-937E-4490-9EEE-68A9D5000DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55A2A97-0C53-4A76-BEED-ADC04B20100A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55A2A97-0C53-4A76-BEED-ADC04B20100A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55A2A97-0C53-4A76-BEED-ADC04B20100A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55A2A97-0C53-4A76-BEED-ADC04B20100A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -152,6 +164,7 @@ Global
 		{915AB1EE-07DD-4CE4-B0E9-6C9A53042F09} = {E5C55B3F-4EBB-4247-8EC9-C64DDC51AF49}
 		{53C70619-0FE1-4D1F-A2C3-041AC917CA16} = {E5C55B3F-4EBB-4247-8EC9-C64DDC51AF49}
 		{32E3C030-028C-4EE1-A13A-8903169989F6} = {E5C55B3F-4EBB-4247-8EC9-C64DDC51AF49}
+		{6727EB79-937E-4490-9EEE-68A9D5000DBD} = {E5C55B3F-4EBB-4247-8EC9-C64DDC51AF49}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEC26753-82CD-48F6-8702-CC833E2801E6}
