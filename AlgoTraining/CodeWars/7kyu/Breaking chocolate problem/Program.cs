@@ -50,6 +50,7 @@ namespace Breaking_chocolate_problem
             {
                 //same as me but in different way
                 return a * b > 0 ? a * b - 1 : 0;
+
             }
 
             static int Solution2(int n, int m)
