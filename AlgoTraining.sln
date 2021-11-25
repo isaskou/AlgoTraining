@@ -51,9 +51,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Waiting_room", "AlgoTrainin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sum of odd numbers", "AlgoTraining\CodeWars\7kyu\Sum of odd numbers\Sum of odd numbers.csproj", "{32E3C030-028C-4EE1-A13A-8903169989F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breaking chocolate problem", "AlgoTraining\CodeWars\7kyu\Breaking chocolate problem\Breaking chocolate problem.csproj", "{6727EB79-937E-4490-9EEE-68A9D5000DBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Breaking chocolate problem", "AlgoTraining\CodeWars\7kyu\Breaking chocolate problem\Breaking chocolate problem.csproj", "{6727EB79-937E-4490-9EEE-68A9D5000DBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disemvowel Trolls", "AlgoTraining\CodeWars\7kyu\Disemvowel Trolls\Disemvowel Trolls.csproj", "{53106B18-B14D-41FE-A64D-3EDC4783C8A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Disemvowel Trolls", "AlgoTraining\CodeWars\7kyu\Disemvowel Trolls\Disemvowel Trolls.csproj", "{53106B18-B14D-41FE-A64D-3EDC4783C8A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Who likes it", "AlgoTraining\CodeWars\6kyu\Who likes it\Who likes it.csproj", "{A290F616-9306-4B5C-8376-618E00021F39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +139,10 @@ Global
 		{53106B18-B14D-41FE-A64D-3EDC4783C8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53106B18-B14D-41FE-A64D-3EDC4783C8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53106B18-B14D-41FE-A64D-3EDC4783C8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A290F616-9306-4B5C-8376-618E00021F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A290F616-9306-4B5C-8376-618E00021F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A290F616-9306-4B5C-8376-618E00021F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A290F616-9306-4B5C-8376-618E00021F39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -166,6 +172,7 @@ Global
 		{32E3C030-028C-4EE1-A13A-8903169989F6} = {E5C55B3F-4EBB-4247-8EC9-C64DDC51AF49}
 		{6727EB79-937E-4490-9EEE-68A9D5000DBD} = {E5C55B3F-4EBB-4247-8EC9-C64DDC51AF49}
 		{53106B18-B14D-41FE-A64D-3EDC4783C8A4} = {E5C55B3F-4EBB-4247-8EC9-C64DDC51AF49}
+		{A290F616-9306-4B5C-8376-618E00021F39} = {7B997C51-DFA6-4BE4-B5D9-541330EF4B3B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEC26753-82CD-48F6-8702-CC833E2801E6}
