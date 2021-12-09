@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Weight_for_weight
@@ -10,97 +11,106 @@ namespace Weight_for_weight
     {
         public string orderWeight(string strng)
         {
+            Regex regex = new Regex(@"^[0-9]+$");
+
             string[] result = new string[] { "" };
 
+            //vérifier si c'est vide
             if (String.IsNullOrEmpty(strng))
             {
                 return "";
             }
-            
-
             else
             {
+
                 result = strng.Split(' ');
                 Array.Sort(result);
 
-                int[] intArray = Array.ConvertAll(result, x => int.Parse(x));
-
-                List<int> listSum = new List<int>();
-
-                //pour calculer la somme de chq nombre du tableau 
-
-                int sum = 0, number, temp;
-
-                for (int i = 0; i < intArray.Length; i++)
+                //Vérifier que c'est des nombres
+                foreach (var item in result)
                 {
-                    number = intArray[i];
-                    sum = 0;
-                    temp = 0;
-                    while (number != 0)
+                    if (!regex.IsMatch(item))
                     {
-                        temp = number % 10;
-                        sum += temp;
-                        number /= 10;
+                        return "";
                     }
-
-                    listSum.Add(sum);
+                }
+                if (result.Length == 1)
+                {
+                    return strng;
                 }
 
-                //Pour comparer les 2 tableaux
-
-                int temp2;
-
-                for (int i = 0; i < listSum.Count; i++)
+                else
                 {
-                    for (int j = 1; j <= listSum.Count - 1; j++)
+                    List<long> listSum = new List<long>();
+
+                    //pour calculer la somme de chq nombre du tableau 
+                    long sum = 0, number, temp;
+
+                    for (int i = 0; i < result.Length; i++)
                     {
-                        if (listSum[j] < listSum[j - 1])
+                        number = long.Parse(result[i]);
+                        sum = 0;
+                        temp = 0;
+                        while (number != 0)
                         {
-                            temp2 = intArray[j];
-                            temp = listSum[j];
-                            intArray[j] = intArray[j - 1];
-                            listSum[j] = listSum[j - 1];
-                            intArray[j - 1] = temp2;
-                            listSum[j - 1] = temp;
+                            temp = number % 10;
+                            sum += temp;
+                            number /= 10;
+                        }
+                        //ajouter la somme de chaque nombre dans la liste
+                        listSum.Add(sum);
+                    }
+
+                    //Pour comparer les 2 tableaux
+                    long temp2;
+                    //si juste un élément
+
+                    for (int i = 0; i < listSum.Count; i++)
+                    {
+                        for (int j = 1; j <= listSum.Count - 1; j++)
+                        {
+                            if (listSum[j] < listSum[j - 1])
+                            {
+                                temp2 = long.Parse(result[j]);
+                                temp = listSum[j];
+                                result[j] = result[j - 1];
+                                listSum[j] = listSum[j - 1];
+                                result[j - 1] = temp2.ToString();
+                                listSum[j - 1] = temp;
+                            }
                         }
                     }
-                }
 
 
 
-                //Pour afficher la liste en string
-                string response = "";
+                    //Pour afficher la liste en string
+                    string response = "";
 
-                for (int i = 0; i < intArray.Length; i++)
-                {
-                    if (i != intArray.Length - 1)
+                    for (int i = 0; i < result.Length; i++)
                     {
-                        response += intArray[i].ToString() + " ";
+                        if (i != result.Length - 1)
+                        {
+                            response += result[i].ToString() + " ";
+
+                        }
+                        else
+                        {
+                            response += result[i].ToString();
+                        }
+
 
                     }
-                    else
-                    {
-                        response += intArray[i].ToString();
-                    }
+                    //foreach (var item in intArray)
+                    //{
+                    //    response += item.ToString()+" ";
+                    //}
 
-
+                    return response;
                 }
-                //foreach (var item in intArray)
-                //{
-                //    response += item.ToString()+" ";
-                //}
 
-                return response;
             }
 
-
-
-
         }
-
-
-
-
 
     }
 }
