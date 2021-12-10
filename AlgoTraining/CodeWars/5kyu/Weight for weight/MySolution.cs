@@ -34,11 +34,11 @@ namespace Weight_for_weight
                         return "";
                     }
                 }
+                //si juste un élément
                 if (result.Length == 1)
                 {
                     return strng;
                 }
-
                 else
                 {
                     List<long> listSum = new List<long>();
@@ -63,7 +63,6 @@ namespace Weight_for_weight
 
                     //Pour comparer les 2 tableaux
                     long temp2;
-                    //si juste un élément
 
                     for (int i = 0; i < listSum.Count; i++)
                     {
@@ -80,9 +79,6 @@ namespace Weight_for_weight
                             }
                         }
                     }
-
-
-
                     //Pour afficher la liste en string
                     string response = "";
 
@@ -97,14 +93,7 @@ namespace Weight_for_weight
                         {
                             response += result[i].ToString();
                         }
-
-
                     }
-                    //foreach (var item in intArray)
-                    //{
-                    //    response += item.ToString()+" ";
-                    //}
-
                     return response;
                 }
 
