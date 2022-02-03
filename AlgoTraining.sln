@@ -67,7 +67,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "There is no Spoon - Episode
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5kyu", "5kyu", "{F07F9449-F177-4FDF-931A-63F1608A2036}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weight for weight", "AlgoTraining\CodeWars\5kyu\Weight for weight\Weight for weight.csproj", "{88CF7A80-F0F8-42EB-9BC3-35E8BA451D0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weight for weight", "AlgoTraining\CodeWars\5kyu\Weight for weight\Weight for weight.csproj", "{88CF7A80-F0F8-42EB-9BC3-35E8BA451D0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsANumberPrime", "AlgoTraining\CodeWars\6kyu\IsANumberPrime\IsANumberPrime.csproj", "{67767264-86DC-487F-82BA-CE04255361BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reversed_sequence", "AlgoTraining\CodeWars\8Kyu\Reversed_sequence\Reversed_sequence.csproj", "{44F9B07C-8933-4EA9-8CA7-7459C58B2EF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +175,14 @@ Global
 		{88CF7A80-F0F8-42EB-9BC3-35E8BA451D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88CF7A80-F0F8-42EB-9BC3-35E8BA451D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88CF7A80-F0F8-42EB-9BC3-35E8BA451D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67767264-86DC-487F-82BA-CE04255361BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67767264-86DC-487F-82BA-CE04255361BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67767264-86DC-487F-82BA-CE04255361BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67767264-86DC-487F-82BA-CE04255361BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F9B07C-8933-4EA9-8CA7-7459C58B2EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F9B07C-8933-4EA9-8CA7-7459C58B2EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F9B07C-8933-4EA9-8CA7-7459C58B2EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F9B07C-8933-4EA9-8CA7-7459C58B2EF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -206,6 +218,8 @@ Global
 		{0770589A-74C2-4A8E-B76F-9E25D4F21D85} = {836CC1ED-7D82-48BF-848E-36E524FC4E4A}
 		{F07F9449-F177-4FDF-931A-63F1608A2036} = {26DA9FAF-657A-40C9-8711-3614AE57A4E3}
 		{88CF7A80-F0F8-42EB-9BC3-35E8BA451D0B} = {F07F9449-F177-4FDF-931A-63F1608A2036}
+		{67767264-86DC-487F-82BA-CE04255361BF} = {7B997C51-DFA6-4BE4-B5D9-541330EF4B3B}
+		{44F9B07C-8933-4EA9-8CA7-7459C58B2EF3} = {0CBE92E9-5762-45F3-B6FB-F0CB20C9527B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEC26753-82CD-48F6-8702-CC833E2801E6}
